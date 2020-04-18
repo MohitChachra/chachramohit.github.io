@@ -443,8 +443,10 @@ hr{
 
 @media (max-width:729px) {
     .buttons {
-        flex-direction:column;
-        margin:10px;
+      flex-direction:column;
+    }
+    .action__btn {
+      margin:5px;
     }
 }
 
