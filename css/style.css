@@ -441,6 +441,12 @@ hr{
   margin-bottom: 2rem;
 }
 
+@media (max-width:729px) {
+    .buttons {
+        flex-direction:column;
+    }
+}
+
 .action__btn{
   padding: 1rem;
   outline: none;
